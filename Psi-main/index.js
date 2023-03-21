@@ -3,7 +3,6 @@ const express = require("express");
 const record = require('node-record-lpcm16');
 var bodyParser = require('body-parser');
 const base64ToImage = require('base64-to-image');
-const record = require('node-record-lpcm16');
 const { Writable } = require('stream');
 const config=require('./app').config;
 var jsonParser=bodyParser.json({limit:1024*1024*20, type:'application/json'});
