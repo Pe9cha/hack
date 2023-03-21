@@ -1,5 +1,6 @@
 const fs = require("fs");
 const express = require("express");
+const record = require('node-record-lpcm16');
 var bodyParser = require('body-parser');
 const base64ToImage = require('base64-to-image');
 const record = require('node-record-lpcm16');
