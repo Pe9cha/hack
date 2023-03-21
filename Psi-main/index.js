@@ -37,7 +37,7 @@ res.send(fileName);
 });
 
 
-const recording = record.start({
+/*const recording = record.start({
   sampleRateHertz: 16000,
   threshold: 0,
   verbose: false,
@@ -64,7 +64,7 @@ app.get('/startRecording', (req, res) => {
 app.get('/stopRecording', (req, res) => {
   recording.stop();
   res.send('Stopped recording');
-});
+});*/
 
 app.listen(5000, () => {
   console.log('App running on port 5000');
